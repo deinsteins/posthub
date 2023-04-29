@@ -1,38 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js CRUD App
+
+This is a CRUD app built with Next.js that allows users to create, read, update, and delete posts. The app uses the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API as the data source.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [React Query](https://react-query.tanstack.com/)
+- [Axios](https://axios-http.com/)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 12 or later)
+- Yarn or npm
+
+### Installing
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/your-username/nextjs-crud-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+cd nextjs-crud-app
+yarn install
+# or
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Start the development server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+yarn dev
+# or
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Open the app in your browser at http://localhost:3000
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- List all posts on the homepage
+- View individual post details by clicking on a post
+- Create new posts with a form that includes title and body fields
+- Edit existing posts with a pre-populated form
+- Delete posts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for providing a free and easy-to-use API
+- [React Query](https://react-query.tanstack.com/) and [Axios](https://axios-http.com/) for making data fetching and caching simple
+- [Chakra UI](https://chakra-ui.com/) for providing a set of accessible and customizable UI components
+- [React Hook Form](https://react-hook-form.com/) for making form validation simple and intuitive
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
